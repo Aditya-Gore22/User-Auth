@@ -1,0 +1,438 @@
+{"level":"info","message":"POST /auth/login","method":"POST","timestamp":"2026-02-24T06:40:29.352Z","url":"/auth/login"}
+{
+  message: 'POST /auth/register',
+  method: 'POST',
+  url: '/auth/register',
+  level: 'info',
+  timestamp: '2026-02-24T07:02:39.641Z'
+}
+{
+  message: 'POST /auth/login',
+  method: 'POST',
+  url: '/auth/login',
+  level: 'info',
+  timestamp: '2026-02-24T07:03:22.708Z'
+}
+{
+  message: 'GET /dashboard',
+  method: 'GET',
+  url: '/dashboard',
+  level: 'info',
+  timestamp: '2026-02-24T07:23:08.962Z'
+}
+{
+  message: 'POST /auth/login',
+  method: 'POST',
+  url: '/auth/login',
+  level: 'info',
+  timestamp: '2026-02-24T07:24:49.140Z'
+}
+{
+  message: 'GET /dashboard',
+  method: 'GET',
+  url: '/dashboard',
+  level: 'info',
+  timestamp: '2026-02-24T07:25:05.320Z'
+}
+{
+  message: 'POST /auth/login',
+  method: 'POST',
+  url: '/auth/login',
+  level: 'info',
+  timestamp: '2026-02-24T07:26:26.871Z'
+}
+{
+  message: 'POST /auth/logout',
+  method: 'POST',
+  url: '/auth/logout',
+  level: 'info',
+  timestamp: '2026-02-24T08:17:54.382Z'
+}
+{
+  message: 'POST http://localhost:3000/auth/login',
+  method: 'POST',
+  url: '/auth/login',
+  level: 'info',
+  timestamp: '2026-02-24T08:21:30.867Z'
+}
+{
+  message: 'POST /auth/login',
+  method: 'POST',
+  url: '/auth/login',
+  level: 'info',
+  timestamp: '2026-02-24T09:29:21.008Z'
+}
+{
+  timestamp: '2026-02-24T09:30:02.380Z',
+  level: 'info',
+  message: 'Incoming request',
+  method: 'POST',
+  url: '/auth/login',
+  user_id: null,
+  source_ip: '::ffff:127.0.0.1',
+  request_id: null,
+  service: 'user-service',
+  device_info: 'Thunder Client (https://www.thunderclient.com)',
+  location: null
+}
+{
+  timestamp: '2026-02-24T09:32:36.026Z',
+  level: 'info',
+  message: 'Incoming request',
+  method: 'GET',
+  url: '/dashboard',
+  user_id: null,
+  source_ip: '::1',
+  request_id: null,
+  service: 'user-service',
+  device_info: 'PostmanRuntime/7.51.1',
+  location: null
+}
+{
+  timestamp: '2026-02-24T09:32:44.350Z',
+  level: 'info',
+  message: 'Incoming request',
+  method: 'POST',
+  url: '/auth/login',
+  user_id: null,
+  source_ip: '::1',
+  request_id: null,
+  service: 'user-service',
+  device_info: 'PostmanRuntime/7.51.1',
+  location: null
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/login',
+  level: 'info',
+  timestamp: '2026-02-24T09:36:11.063Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-24T09:41:47.096Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-24T09:43:11.817Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-24T09:47:21.020Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-24T09:48:01.425Z'
+}
+{
+  message: 'Email already registered.',
+  level: 'error',
+  timestamp: '2026-02-24T09:48:01.429Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-24T09:49:37.442Z'
+}
+{
+  message: 'Email already registered.',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'error',
+  timestamp: '2026-02-24T09:49:37.446Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-24T09:54:12.568Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-24T09:56:22.774Z'
+}
+{
+  message: 'Email already registered.',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'error',
+  timestamp: '2026-02-24T09:56:22.775Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/login',
+  level: 'info',
+  timestamp: '2026-02-24T10:19:12.562Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/login',
+  level: 'info',
+  timestamp: '2026-02-24T10:20:13.440Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/login',
+  level: 'info',
+  timestamp: '2026-02-24T10:20:42.871Z'
+}
+{
+  message: 'Server error',
+  error: 'id is not defined',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/login',
+  level: 'error',
+  timestamp: '2026-02-24T10:20:42.936Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/login',
+  level: 'info',
+  timestamp: '2026-02-24T10:22:25.042Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-24T10:22:53.465Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-24T10:23:05.154Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/login',
+  level: 'info',
+  timestamp: '2026-02-24T10:23:17.552Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-24T10:41:43.197Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-24T10:47:00.573Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-24T10:47:27.361Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-24T10:47:32.243Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-24T10:49:18.926Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-24T10:52:51.327Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-24T10:53:00.909Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-24T10:53:25.658Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-24T10:53:27.726Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-24T10:53:58.165Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-24T10:54:22.321Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-24T10:56:50.263Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-24T10:57:10.562Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-24T10:58:03.066Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-24T10:58:49.018Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-24T10:59:22.671Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-24T10:59:49.733Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-24T10:59:52.061Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-24T11:00:04.296Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-24T11:00:18.116Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-24T11:00:19.899Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-24T11:01:11.433Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-24T11:01:19.485Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-24T11:01:32.971Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-24T11:02:11.272Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-24T11:02:31.984Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-24T11:03:05.844Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-24T11:03:32.193Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/login',
+  level: 'info',
+  timestamp: '2026-02-24T11:05:36.723Z'
+}

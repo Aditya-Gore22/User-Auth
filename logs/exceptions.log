@@ -1,0 +1,1824 @@
+{
+  error: ReferenceError: expo is not defined
+      at Object.<anonymous> (D:\Aquil_Internship\NODE\task4\utils\logger.js:19:1)
+      at Module._compile (node:internal/modules/cjs/loader:1554:14)
+      at Object..js (node:internal/modules/cjs/loader:1706:10)
+      at Module.load (node:internal/modules/cjs/loader:1289:32)
+      at Function._load (node:internal/modules/cjs/loader:1108:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+      at Module.require (node:internal/modules/cjs/loader:1311:12)
+      at require (node:internal/modules/helpers:136:16)
+      at Object.<anonymous> (D:\Aquil_Internship\NODE\task4\middlewares\logMiddleware.js:1:16),
+  level: 'error',
+  message: 'uncaughtException: expo is not defined\n' +
+    'ReferenceError: expo is not defined\n' +
+    '    at Object.<anonymous> (D:\\Aquil_Internship\\NODE\\task4\\utils\\logger.js:19:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1554:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1706:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1289:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1108:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1311:12)\n' +
+    '    at require (node:internal/modules/helpers:136:16)\n' +
+    '    at Object.<anonymous> (D:\\Aquil_Internship\\NODE\\task4\\middlewares\\logMiddleware.js:1:16)',
+  stack: 'ReferenceError: expo is not defined\n' +
+    '    at Object.<anonymous> (D:\\Aquil_Internship\\NODE\\task4\\utils\\logger.js:19:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1554:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1706:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1289:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1108:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1311:12)\n' +
+    '    at require (node:internal/modules/helpers:136:16)\n' +
+    '    at Object.<anonymous> (D:\\Aquil_Internship\\NODE\\task4\\middlewares\\logMiddleware.js:1:16)',
+  exception: true,
+  date: 'Tue Feb 24 2026 14:58:46 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 10148,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\Aquil_Internship\\NODE\\task4',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\Aquil_Internship\\NODE\\task4\\server.js'
+    ],
+    memoryUsage: {
+      rss: 57909248,
+      heapTotal: 18067456,
+      heapUsed: 10046560,
+      external: 2032515,
+      arrayBuffers: 16835
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 15515.906 },
+  trace: [
+    {
+      column: 1,
+      file: 'D:\\Aquil_Internship\\NODE\\task4\\utils\\logger.js',
+      function: null,
+      line: 19,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1554,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1706,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1289,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1108,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 220,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1311,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 136,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: 'D:\\Aquil_Internship\\NODE\\task4\\middlewares\\logMiddleware.js',
+      function: null,
+      line: 1,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2026-02-24T09:28:46.095Z'
+}
+{
+  error: D:\Aquil_Internship\NODE\task4\controllers\authController.js:35
+          logger.error(e;
+                       ^
+  
+  SyntaxError: missing ) after argument list
+      at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+      at Module._compile (node:internal/modules/cjs/loader:1528:20)
+      at Object..js (node:internal/modules/cjs/loader:1706:10)
+      at Module.load (node:internal/modules/cjs/loader:1289:32)
+      at Function._load (node:internal/modules/cjs/loader:1108:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+      at Module.require (node:internal/modules/cjs/loader:1311:12)
+      at require (node:internal/modules/helpers:136:16)
+      at Object.<anonymous> (D:\Aquil_Internship\NODE\task4\routes\authRoute.js:5:22),
+  level: 'error',
+  message: 'uncaughtException: missing ) after argument list\n' +
+    'D:\\Aquil_Internship\\NODE\\task4\\controllers\\authController.js:35\n' +
+    '        logger.error(e;\n' +
+    '                     ^\n' +
+    '\n' +
+    'SyntaxError: missing ) after argument list\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1486:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1528:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1706:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1289:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1108:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1311:12)\n' +
+    '    at require (node:internal/modules/helpers:136:16)\n' +
+    '    at Object.<anonymous> (D:\\Aquil_Internship\\NODE\\task4\\routes\\authRoute.js:5:22)',
+  stack: 'D:\\Aquil_Internship\\NODE\\task4\\controllers\\authController.js:35\n' +
+    '        logger.error(e;\n' +
+    '                     ^\n' +
+    '\n' +
+    'SyntaxError: missing ) after argument list\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1486:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1528:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1706:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1289:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1108:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1311:12)\n' +
+    '    at require (node:internal/modules/helpers:136:16)\n' +
+    '    at Object.<anonymous> (D:\\Aquil_Internship\\NODE\\task4\\routes\\authRoute.js:5:22)',
+  exception: true,
+  date: 'Tue Feb 24 2026 15:08:48 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 4624,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\Aquil_Internship\\NODE\\task4',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\Aquil_Internship\\NODE\\task4\\server.js'
+    ],
+    memoryUsage: {
+      rss: 58294272,
+      heapTotal: 18067456,
+      heapUsed: 10368272,
+      external: 2150216,
+      arrayBuffers: 16835
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 16118.625 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1486,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1528,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1706,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1289,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1108,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 220,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1311,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 136,
+      method: null,
+      native: false
+    },
+    {
+      column: 22,
+      file: 'D:\\Aquil_Internship\\NODE\\task4\\routes\\authRoute.js',
+      function: null,
+      line: 5,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2026-02-24T09:38:48.807Z'
+}
+{
+  error: ReferenceError: co is not defined
+      at Object.<anonymous> (D:\Aquil_Internship\NODE\task4\middlewares\authMiddleware.js:2:1)
+      at Module._compile (node:internal/modules/cjs/loader:1554:14)
+      at Object..js (node:internal/modules/cjs/loader:1706:10)
+      at Module.load (node:internal/modules/cjs/loader:1289:32)
+      at Function._load (node:internal/modules/cjs/loader:1108:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+      at Module.require (node:internal/modules/cjs/loader:1311:12)
+      at require (node:internal/modules/helpers:136:16)
+      at Object.<anonymous> (D:\Aquil_Internship\NODE\task4\routes\authRoute.js:4:22),
+  level: 'error',
+  message: 'uncaughtException: co is not defined\n' +
+    'ReferenceError: co is not defined\n' +
+    '    at Object.<anonymous> (D:\\Aquil_Internship\\NODE\\task4\\middlewares\\authMiddleware.js:2:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1554:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1706:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1289:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1108:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1311:12)\n' +
+    '    at require (node:internal/modules/helpers:136:16)\n' +
+    '    at Object.<anonymous> (D:\\Aquil_Internship\\NODE\\task4\\routes\\authRoute.js:4:22)',
+  stack: 'ReferenceError: co is not defined\n' +
+    '    at Object.<anonymous> (D:\\Aquil_Internship\\NODE\\task4\\middlewares\\authMiddleware.js:2:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1554:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1706:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1289:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1108:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1311:12)\n' +
+    '    at require (node:internal/modules/helpers:136:16)\n' +
+    '    at Object.<anonymous> (D:\\Aquil_Internship\\NODE\\task4\\routes\\authRoute.js:4:22)',
+  exception: true,
+  date: 'Tue Feb 24 2026 15:17:36 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 27092,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\Aquil_Internship\\NODE\\task4',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\Aquil_Internship\\NODE\\task4\\server.js'
+    ],
+    memoryUsage: {
+      rss: 58269696,
+      heapTotal: 18067456,
+      heapUsed: 10289208,
+      external: 2150216,
+      arrayBuffers: 16835
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 16646.625 },
+  trace: [
+    {
+      column: 1,
+      file: 'D:\\Aquil_Internship\\NODE\\task4\\middlewares\\authMiddleware.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1554,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1706,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1289,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1108,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 220,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1311,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 136,
+      method: null,
+      native: false
+    },
+    {
+      column: 22,
+      file: 'D:\\Aquil_Internship\\NODE\\task4\\routes\\authRoute.js',
+      function: null,
+      line: 4,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2026-02-24T09:47:36.808Z'
+}
+{
+  error: D:\Aquil_Internship\NODE\task4\middlewares\authMiddleware.js:3
+  exports.emailExists=async (req,res,next) =>{
+  ^
+  
+  SyntaxError: Identifier 'exports' has already been declared
+      at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+      at Module._compile (node:internal/modules/cjs/loader:1528:20)
+      at Object..js (node:internal/modules/cjs/loader:1706:10)
+      at Module.load (node:internal/modules/cjs/loader:1289:32)
+      at Function._load (node:internal/modules/cjs/loader:1108:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+      at Module.require (node:internal/modules/cjs/loader:1311:12)
+      at require (node:internal/modules/helpers:136:16)
+      at Object.<anonymous> (D:\Aquil_Internship\NODE\task4\routes\authRoute.js:4:22),
+  level: 'error',
+  message: "uncaughtException: Identifier 'exports' has already been declared\n" +
+    'D:\\Aquil_Internship\\NODE\\task4\\middlewares\\authMiddleware.js:3\n' +
+    'exports.emailExists=async (req,res,next) =>{\n' +
+    '^\n' +
+    '\n' +
+    "SyntaxError: Identifier 'exports' has already been declared\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1486:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1528:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1706:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1289:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1108:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1311:12)\n' +
+    '    at require (node:internal/modules/helpers:136:16)\n' +
+    '    at Object.<anonymous> (D:\\Aquil_Internship\\NODE\\task4\\routes\\authRoute.js:4:22)',
+  stack: 'D:\\Aquil_Internship\\NODE\\task4\\middlewares\\authMiddleware.js:3\n' +
+    'exports.emailExists=async (req,res,next) =>{\n' +
+    '^\n' +
+    '\n' +
+    "SyntaxError: Identifier 'exports' has already been declared\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1486:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1528:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1706:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1289:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1108:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1311:12)\n' +
+    '    at require (node:internal/modules/helpers:136:16)\n' +
+    '    at Object.<anonymous> (D:\\Aquil_Internship\\NODE\\task4\\routes\\authRoute.js:4:22)',
+  exception: true,
+  date: 'Tue Feb 24 2026 15:17:38 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 26100,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\Aquil_Internship\\NODE\\task4',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\Aquil_Internship\\NODE\\task4\\server.js'
+    ],
+    memoryUsage: {
+      rss: 58167296,
+      heapTotal: 18067456,
+      heapUsed: 10119848,
+      external: 2032515,
+      arrayBuffers: 16835
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 16648.687 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1486,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1528,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1706,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1289,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1108,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 220,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1311,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 136,
+      method: null,
+      native: false
+    },
+    {
+      column: 22,
+      file: 'D:\\Aquil_Internship\\NODE\\task4\\routes\\authRoute.js',
+      function: null,
+      line: 4,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2026-02-24T09:47:38.868Z'
+}
+{
+  error: D:\Aquil_Internship\NODE\task4\middlewares\authMiddleware.js:2
+  const lo
+        ^^
+  
+  SyntaxError: Missing initializer in const declaration
+      at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+      at Module._compile (node:internal/modules/cjs/loader:1528:20)
+      at Object..js (node:internal/modules/cjs/loader:1706:10)
+      at Module.load (node:internal/modules/cjs/loader:1289:32)
+      at Function._load (node:internal/modules/cjs/loader:1108:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+      at Module.require (node:internal/modules/cjs/loader:1311:12)
+      at require (node:internal/modules/helpers:136:16)
+      at Object.<anonymous> (D:\Aquil_Internship\NODE\task4\routes\authRoute.js:4:22),
+  level: 'error',
+  message: 'uncaughtException: Missing initializer in const declaration\n' +
+    'D:\\Aquil_Internship\\NODE\\task4\\middlewares\\authMiddleware.js:2\n' +
+    'const lo\n' +
+    '      ^^\n' +
+    '\n' +
+    'SyntaxError: Missing initializer in const declaration\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1486:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1528:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1706:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1289:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1108:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1311:12)\n' +
+    '    at require (node:internal/modules/helpers:136:16)\n' +
+    '    at Object.<anonymous> (D:\\Aquil_Internship\\NODE\\task4\\routes\\authRoute.js:4:22)',
+  stack: 'D:\\Aquil_Internship\\NODE\\task4\\middlewares\\authMiddleware.js:2\n' +
+    'const lo\n' +
+    '      ^^\n' +
+    '\n' +
+    'SyntaxError: Missing initializer in const declaration\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1486:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1528:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1706:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1289:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1108:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1311:12)\n' +
+    '    at require (node:internal/modules/helpers:136:16)\n' +
+    '    at Object.<anonymous> (D:\\Aquil_Internship\\NODE\\task4\\routes\\authRoute.js:4:22)',
+  exception: true,
+  date: 'Tue Feb 24 2026 15:17:41 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 13676,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\Aquil_Internship\\NODE\\task4',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\Aquil_Internship\\NODE\\task4\\server.js'
+    ],
+    memoryUsage: {
+      rss: 57995264,
+      heapTotal: 18067456,
+      heapUsed: 10115288,
+      external: 2032515,
+      arrayBuffers: 16835
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 16651.312 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1486,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1528,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1706,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1289,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1108,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 220,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1311,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 136,
+      method: null,
+      native: false
+    },
+    {
+      column: 22,
+      file: 'D:\\Aquil_Internship\\NODE\\task4\\routes\\authRoute.js',
+      function: null,
+      line: 4,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2026-02-24T09:47:41.501Z'
+}
+{
+  error: D:\Aquil_Internship\NODE\task4\middlewares\authMiddleware.js:2
+  const logger
+        ^^^^^^
+  
+  SyntaxError: Missing initializer in const declaration
+      at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+      at Module._compile (node:internal/modules/cjs/loader:1528:20)
+      at Object..js (node:internal/modules/cjs/loader:1706:10)
+      at Module.load (node:internal/modules/cjs/loader:1289:32)
+      at Function._load (node:internal/modules/cjs/loader:1108:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+      at Module.require (node:internal/modules/cjs/loader:1311:12)
+      at require (node:internal/modules/helpers:136:16)
+      at Object.<anonymous> (D:\Aquil_Internship\NODE\task4\routes\authRoute.js:4:22),
+  level: 'error',
+  message: 'uncaughtException: Missing initializer in const declaration\n' +
+    'D:\\Aquil_Internship\\NODE\\task4\\middlewares\\authMiddleware.js:2\n' +
+    'const logger\n' +
+    '      ^^^^^^\n' +
+    '\n' +
+    'SyntaxError: Missing initializer in const declaration\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1486:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1528:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1706:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1289:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1108:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1311:12)\n' +
+    '    at require (node:internal/modules/helpers:136:16)\n' +
+    '    at Object.<anonymous> (D:\\Aquil_Internship\\NODE\\task4\\routes\\authRoute.js:4:22)',
+  stack: 'D:\\Aquil_Internship\\NODE\\task4\\middlewares\\authMiddleware.js:2\n' +
+    'const logger\n' +
+    '      ^^^^^^\n' +
+    '\n' +
+    'SyntaxError: Missing initializer in const declaration\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1486:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1528:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1706:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1289:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1108:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1311:12)\n' +
+    '    at require (node:internal/modules/helpers:136:16)\n' +
+    '    at Object.<anonymous> (D:\\Aquil_Internship\\NODE\\task4\\routes\\authRoute.js:4:22)',
+  exception: true,
+  date: 'Tue Feb 24 2026 15:17:43 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 7400,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\Aquil_Internship\\NODE\\task4',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\Aquil_Internship\\NODE\\task4\\server.js'
+    ],
+    memoryUsage: {
+      rss: 58056704,
+      heapTotal: 18067456,
+      heapUsed: 10069304,
+      external: 2032515,
+      arrayBuffers: 16835
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 16653.156 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1486,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1528,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1706,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1289,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1108,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 220,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1311,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 136,
+      method: null,
+      native: false
+    },
+    {
+      column: 22,
+      file: 'D:\\Aquil_Internship\\NODE\\task4\\routes\\authRoute.js',
+      function: null,
+      line: 4,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2026-02-24T09:47:43.348Z'
+}
+{
+  error: D:\Aquil_Internship\NODE\task4\middlewares\authMiddleware.js:22
+          \return res.status(400).json({message:'Username already registered.'})
+          ^
+  
+  SyntaxError: Invalid or unexpected token
+      at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+      at Module._compile (node:internal/modules/cjs/loader:1528:20)
+      at Object..js (node:internal/modules/cjs/loader:1706:10)
+      at Module.load (node:internal/modules/cjs/loader:1289:32)
+      at Function._load (node:internal/modules/cjs/loader:1108:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+      at Module.require (node:internal/modules/cjs/loader:1311:12)
+      at require (node:internal/modules/helpers:136:16)
+      at Object.<anonymous> (D:\Aquil_Internship\NODE\task4\routes\authRoute.js:4:22),
+  level: 'error',
+  message: 'uncaughtException: Invalid or unexpected token\n' +
+    'D:\\Aquil_Internship\\NODE\\task4\\middlewares\\authMiddleware.js:22\n' +
+    "        \\return res.status(400).json({message:'Username already registered.'})\n" +
+    '        ^\n' +
+    '\n' +
+    'SyntaxError: Invalid or unexpected token\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1486:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1528:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1706:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1289:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1108:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1311:12)\n' +
+    '    at require (node:internal/modules/helpers:136:16)\n' +
+    '    at Object.<anonymous> (D:\\Aquil_Internship\\NODE\\task4\\routes\\authRoute.js:4:22)',
+  stack: 'D:\\Aquil_Internship\\NODE\\task4\\middlewares\\authMiddleware.js:22\n' +
+    "        \\return res.status(400).json({message:'Username already registered.'})\n" +
+    '        ^\n' +
+    '\n' +
+    'SyntaxError: Invalid or unexpected token\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1486:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1528:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1706:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1289:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1108:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1311:12)\n' +
+    '    at require (node:internal/modules/helpers:136:16)\n' +
+    '    at Object.<anonymous> (D:\\Aquil_Internship\\NODE\\task4\\routes\\authRoute.js:4:22)',
+  exception: true,
+  date: 'Tue Feb 24 2026 15:37:17 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 20296,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\Aquil_Internship\\NODE\\task4',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\Aquil_Internship\\NODE\\task4\\server.js'
+    ],
+    memoryUsage: {
+      rss: 56262656,
+      heapTotal: 18067456,
+      heapUsed: 10081296,
+      external: 2032515,
+      arrayBuffers: 16835
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 17827.156 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1486,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1528,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1706,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1289,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1108,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 220,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1311,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 136,
+      method: null,
+      native: false
+    },
+    {
+      column: 22,
+      file: 'D:\\Aquil_Internship\\NODE\\task4\\routes\\authRoute.js',
+      function: null,
+      line: 4,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2026-02-24T10:07:17.342Z'
+}
+{
+  error: D:\Aquil_Internship\NODE\task4\controllers\authController.js:59
+          res.status(201).json({message:'Logged in successfully.'id:id, token:req.cookies.token})
+                                                                 ^^
+  
+  SyntaxError: Unexpected identifier 'id'
+      at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+      at Module._compile (node:internal/modules/cjs/loader:1528:20)
+      at Object..js (node:internal/modules/cjs/loader:1706:10)
+      at Module.load (node:internal/modules/cjs/loader:1289:32)
+      at Function._load (node:internal/modules/cjs/loader:1108:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+      at Module.require (node:internal/modules/cjs/loader:1311:12)
+      at require (node:internal/modules/helpers:136:16)
+      at Object.<anonymous> (D:\Aquil_Internship\NODE\task4\routes\authRoute.js:5:22),
+  level: 'error',
+  message: "uncaughtException: Unexpected identifier 'id'\n" +
+    'D:\\Aquil_Internship\\NODE\\task4\\controllers\\authController.js:59\n' +
+    "        res.status(201).json({message:'Logged in successfully.'id:id, token:req.cookies.token})\n" +
+    '                                                               ^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected identifier 'id'\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1486:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1528:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1706:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1289:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1108:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1311:12)\n' +
+    '    at require (node:internal/modules/helpers:136:16)\n' +
+    '    at Object.<anonymous> (D:\\Aquil_Internship\\NODE\\task4\\routes\\authRoute.js:5:22)',
+  stack: 'D:\\Aquil_Internship\\NODE\\task4\\controllers\\authController.js:59\n' +
+    "        res.status(201).json({message:'Logged in successfully.'id:id, token:req.cookies.token})\n" +
+    '                                                               ^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected identifier 'id'\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1486:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1528:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1706:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1289:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1108:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1311:12)\n' +
+    '    at require (node:internal/modules/helpers:136:16)\n' +
+    '    at Object.<anonymous> (D:\\Aquil_Internship\\NODE\\task4\\routes\\authRoute.js:5:22)',
+  exception: true,
+  date: 'Tue Feb 24 2026 15:50:03 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 19424,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\Aquil_Internship\\NODE\\task4',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\Aquil_Internship\\NODE\\task4\\server.js'
+    ],
+    memoryUsage: {
+      rss: 56516608,
+      heapTotal: 18067456,
+      heapUsed: 10311104,
+      external: 2150216,
+      arrayBuffers: 16835
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 18592.89 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1486,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1528,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1706,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1289,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1108,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 220,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1311,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 136,
+      method: null,
+      native: false
+    },
+    {
+      column: 22,
+      file: 'D:\\Aquil_Internship\\NODE\\task4\\routes\\authRoute.js',
+      function: null,
+      line: 5,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2026-02-24T10:20:03.078Z'
+}
+{
+  error: D:\Aquil_Internship\NODE\task4\middlewares\authMiddleware.js:43
+      return res.status(403).json({ message: 'Invalid or expired token.' err });
+                                                                         ^^^
+  
+  SyntaxError: Unexpected identifier 'err'
+      at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+      at Module._compile (node:internal/modules/cjs/loader:1528:20)
+      at Object..js (node:internal/modules/cjs/loader:1706:10)
+      at Module.load (node:internal/modules/cjs/loader:1289:32)
+      at Function._load (node:internal/modules/cjs/loader:1108:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+      at Module.require (node:internal/modules/cjs/loader:1311:12)
+      at require (node:internal/modules/helpers:136:16)
+      at Object.<anonymous> (D:\Aquil_Internship\NODE\task4\routes\authRoute.js:4:22),
+  level: 'error',
+  message: "uncaughtException: Unexpected identifier 'err'\n" +
+    'D:\\Aquil_Internship\\NODE\\task4\\middlewares\\authMiddleware.js:43\n' +
+    "    return res.status(403).json({ message: 'Invalid or expired token.' err });\n" +
+    '                                                                       ^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected identifier 'err'\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1486:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1528:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1706:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1289:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1108:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1311:12)\n' +
+    '    at require (node:internal/modules/helpers:136:16)\n' +
+    '    at Object.<anonymous> (D:\\Aquil_Internship\\NODE\\task4\\routes\\authRoute.js:4:22)',
+  stack: 'D:\\Aquil_Internship\\NODE\\task4\\middlewares\\authMiddleware.js:43\n' +
+    "    return res.status(403).json({ message: 'Invalid or expired token.' err });\n" +
+    '                                                                       ^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected identifier 'err'\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1486:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1528:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1706:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1289:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1108:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1311:12)\n' +
+    '    at require (node:internal/modules/helpers:136:16)\n' +
+    '    at Object.<anonymous> (D:\\Aquil_Internship\\NODE\\task4\\routes\\authRoute.js:4:22)',
+  exception: true,
+  date: 'Tue Feb 24 2026 16:28:37 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 12080,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\Aquil_Internship\\NODE\\task4',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\Aquil_Internship\\NODE\\task4\\server.js'
+    ],
+    memoryUsage: {
+      rss: 47865856,
+      heapTotal: 18067456,
+      heapUsed: 10146368,
+      external: 2032515,
+      arrayBuffers: 16835
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 20907.671 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1486,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1528,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1706,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1289,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1108,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 220,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1311,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 136,
+      method: null,
+      native: false
+    },
+    {
+      column: 22,
+      file: 'D:\\Aquil_Internship\\NODE\\task4\\routes\\authRoute.js',
+      function: null,
+      line: 4,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2026-02-24T10:58:37.863Z'
+}
+{
+  error: D:\Aquil_Internship\NODE\task4\middlewares\authMiddleware.js:44
+      return res.status(403).json({ message: 'Invalid or expired token.' error });
+                                                                         ^^^^^
+  
+  SyntaxError: Unexpected identifier 'error'
+      at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+      at Module._compile (node:internal/modules/cjs/loader:1528:20)
+      at Object..js (node:internal/modules/cjs/loader:1706:10)
+      at Module.load (node:internal/modules/cjs/loader:1289:32)
+      at Function._load (node:internal/modules/cjs/loader:1108:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+      at Module.require (node:internal/modules/cjs/loader:1311:12)
+      at require (node:internal/modules/helpers:136:16)
+      at Object.<anonymous> (D:\Aquil_Internship\NODE\task4\routes\authRoute.js:4:22),
+  level: 'error',
+  message: "uncaughtException: Unexpected identifier 'error'\n" +
+    'D:\\Aquil_Internship\\NODE\\task4\\middlewares\\authMiddleware.js:44\n' +
+    "    return res.status(403).json({ message: 'Invalid or expired token.' error });\n" +
+    '                                                                       ^^^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected identifier 'error'\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1486:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1528:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1706:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1289:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1108:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1311:12)\n' +
+    '    at require (node:internal/modules/helpers:136:16)\n' +
+    '    at Object.<anonymous> (D:\\Aquil_Internship\\NODE\\task4\\routes\\authRoute.js:4:22)',
+  stack: 'D:\\Aquil_Internship\\NODE\\task4\\middlewares\\authMiddleware.js:44\n' +
+    "    return res.status(403).json({ message: 'Invalid or expired token.' error });\n" +
+    '                                                                       ^^^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected identifier 'error'\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1486:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1528:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1706:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1289:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1108:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1311:12)\n' +
+    '    at require (node:internal/modules/helpers:136:16)\n' +
+    '    at Object.<anonymous> (D:\\Aquil_Internship\\NODE\\task4\\routes\\authRoute.js:4:22)',
+  exception: true,
+  date: 'Tue Feb 24 2026 16:28:39 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 22004,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\Aquil_Internship\\NODE\\task4',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\Aquil_Internship\\NODE\\task4\\server.js'
+    ],
+    memoryUsage: {
+      rss: 47607808,
+      heapTotal: 18067456,
+      heapUsed: 10113848,
+      external: 2032515,
+      arrayBuffers: 16835
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 20909.703 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1486,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1528,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1706,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1289,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1108,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 220,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1311,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 136,
+      method: null,
+      native: false
+    },
+    {
+      column: 22,
+      file: 'D:\\Aquil_Internship\\NODE\\task4\\routes\\authRoute.js',
+      function: null,
+      line: 4,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2026-02-24T10:58:39.885Z'
+}
+{
+  error: D:\Aquil_Internship\NODE\task4\middlewares\authMiddleware.js:44
+      return res.status(403).json({ message: 'Invalid or expired token.' error: });
+                                                                         ^^^^^
+  
+  SyntaxError: Unexpected identifier 'error'
+      at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+      at Module._compile (node:internal/modules/cjs/loader:1528:20)
+      at Object..js (node:internal/modules/cjs/loader:1706:10)
+      at Module.load (node:internal/modules/cjs/loader:1289:32)
+      at Function._load (node:internal/modules/cjs/loader:1108:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+      at Module.require (node:internal/modules/cjs/loader:1311:12)
+      at require (node:internal/modules/helpers:136:16)
+      at Object.<anonymous> (D:\Aquil_Internship\NODE\task4\routes\authRoute.js:4:22),
+  level: 'error',
+  message: "uncaughtException: Unexpected identifier 'error'\n" +
+    'D:\\Aquil_Internship\\NODE\\task4\\middlewares\\authMiddleware.js:44\n' +
+    "    return res.status(403).json({ message: 'Invalid or expired token.' error: });\n" +
+    '                                                                       ^^^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected identifier 'error'\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1486:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1528:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1706:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1289:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1108:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1311:12)\n' +
+    '    at require (node:internal/modules/helpers:136:16)\n' +
+    '    at Object.<anonymous> (D:\\Aquil_Internship\\NODE\\task4\\routes\\authRoute.js:4:22)',
+  stack: 'D:\\Aquil_Internship\\NODE\\task4\\middlewares\\authMiddleware.js:44\n' +
+    "    return res.status(403).json({ message: 'Invalid or expired token.' error: });\n" +
+    '                                                                       ^^^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected identifier 'error'\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1486:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1528:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1706:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1289:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1108:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1311:12)\n' +
+    '    at require (node:internal/modules/helpers:136:16)\n' +
+    '    at Object.<anonymous> (D:\\Aquil_Internship\\NODE\\task4\\routes\\authRoute.js:4:22)',
+  exception: true,
+  date: 'Tue Feb 24 2026 16:28:41 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 21068,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\Aquil_Internship\\NODE\\task4',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\Aquil_Internship\\NODE\\task4\\server.js'
+    ],
+    memoryUsage: {
+      rss: 47693824,
+      heapTotal: 18067456,
+      heapUsed: 10144280,
+      external: 2032515,
+      arrayBuffers: 16835
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 20911.187 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1486,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1528,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1706,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1289,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1108,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 220,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1311,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 136,
+      method: null,
+      native: false
+    },
+    {
+      column: 22,
+      file: 'D:\\Aquil_Internship\\NODE\\task4\\routes\\authRoute.js',
+      function: null,
+      line: 4,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2026-02-24T10:58:41.369Z'
+}
+{
+  error: D:\Aquil_Internship\NODE\task4\middlewares\authMiddleware.js:44
+      return res.status(403).json({ message: 'Invalid or expired token.' error:err.message });
+                                                                         ^^^^^
+  
+  SyntaxError: Unexpected identifier 'error'
+      at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+      at Module._compile (node:internal/modules/cjs/loader:1528:20)
+      at Object..js (node:internal/modules/cjs/loader:1706:10)
+      at Module.load (node:internal/modules/cjs/loader:1289:32)
+      at Function._load (node:internal/modules/cjs/loader:1108:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+      at Module.require (node:internal/modules/cjs/loader:1311:12)
+      at require (node:internal/modules/helpers:136:16)
+      at Object.<anonymous> (D:\Aquil_Internship\NODE\task4\routes\authRoute.js:4:22),
+  level: 'error',
+  message: "uncaughtException: Unexpected identifier 'error'\n" +
+    'D:\\Aquil_Internship\\NODE\\task4\\middlewares\\authMiddleware.js:44\n' +
+    "    return res.status(403).json({ message: 'Invalid or expired token.' error:err.message });\n" +
+    '                                                                       ^^^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected identifier 'error'\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1486:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1528:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1706:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1289:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1108:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1311:12)\n' +
+    '    at require (node:internal/modules/helpers:136:16)\n' +
+    '    at Object.<anonymous> (D:\\Aquil_Internship\\NODE\\task4\\routes\\authRoute.js:4:22)',
+  stack: 'D:\\Aquil_Internship\\NODE\\task4\\middlewares\\authMiddleware.js:44\n' +
+    "    return res.status(403).json({ message: 'Invalid or expired token.' error:err.message });\n" +
+    '                                                                       ^^^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected identifier 'error'\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1486:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1528:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1706:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1289:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1108:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1311:12)\n' +
+    '    at require (node:internal/modules/helpers:136:16)\n' +
+    '    at Object.<anonymous> (D:\\Aquil_Internship\\NODE\\task4\\routes\\authRoute.js:4:22)',
+  exception: true,
+  date: 'Tue Feb 24 2026 16:28:43 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 26648,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\Aquil_Internship\\NODE\\task4',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\Aquil_Internship\\NODE\\task4\\server.js'
+    ],
+    memoryUsage: {
+      rss: 47865856,
+      heapTotal: 18067456,
+      heapUsed: 10142312,
+      external: 2032515,
+      arrayBuffers: 16835
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 20912.843 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1486,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1528,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1706,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1289,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1108,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 220,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1311,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 136,
+      method: null,
+      native: false
+    },
+    {
+      column: 22,
+      file: 'D:\\Aquil_Internship\\NODE\\task4\\routes\\authRoute.js',
+      function: null,
+      line: 4,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2026-02-24T10:58:43.027Z'
+}

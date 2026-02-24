@@ -1,0 +1,27 @@
+{
+  message: 'Email already registered.',
+  level: 'error',
+  timestamp: '2026-02-24T09:48:01.429Z'
+}
+{
+  message: 'Email already registered.',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'error',
+  timestamp: '2026-02-24T09:49:37.446Z'
+}
+{
+  message: 'Email already registered.',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'error',
+  timestamp: '2026-02-24T09:56:22.775Z'
+}
+{
+  message: 'Server error',
+  error: 'id is not defined',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/login',
+  level: 'error',
+  timestamp: '2026-02-24T10:20:42.936Z'
+}
