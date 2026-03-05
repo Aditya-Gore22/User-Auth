@@ -1,40 +1,15 @@
 const jwt = require('jsonwebtoken');
-const {readUsers}=require("../models/userModel")
 const logger=require('../utils/logger');
-const { error } = require('winston');
+
 require('dotenv').config()
 
 
-exports.emailExists=async (req,res,next) =>{
-    const email=req.body.email
-    const data=await readUsers()
-        const userExist=data.find(user=>user.email===email)
-        if(userExist){
-            logger.error({message:'Email already registered.',method: req.method, url:`${req.protocol}://${req.get('host')}${req.originalUrl}`})
-            return res.status(400).json({message:'Email already registered.'})
-        }
-        next()
-}
-
-exports.userNameExists=async (req,res,next)=> {
-    const userName=req.body.userName
-    const data=await readUsers()
-    const userNameExist=data.find(user=>user.userName===userName)
-    if(userNameExist){
-      logger.error({message:'Username already registered.',method: req.method, url:`${req.protocol}://${req.get('host')}${req.originalUrl}`})
-      return res.status(400).json({message:'Username already registered.'})
-    }
-    next()
-
-}
-
-
-
 exports.protectedRoute=(req, res, next) =>{
-  const token =req.cookies.token;
+  const authHeader = req.headers['authorization'];
+  const token = authHeader && authHeader.split(' ')[1]
   if (!token) {
     logger.error({message:'Access denied. No token provided.',method: req.method, url:`${req.protocol}://${req.get('host')}${req.originalUrl}`})
-    return res.status(401).json({ message: 'Access denied. No token provided.' });
+    return res.status(200).json({ status:false, message: 'Access denied. No token provided.' });
   }
   try {
     const decoded = jwt.verify(token, process.env.JWT_KEY);

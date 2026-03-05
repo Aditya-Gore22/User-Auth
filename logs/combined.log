@@ -436,3 +436,1326 @@
   level: 'info',
   timestamp: '2026-02-24T11:05:36.723Z'
 }
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/login',
+  level: 'info',
+  timestamp: '2026-02-24T11:33:17.190Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/login',
+  level: 'info',
+  timestamp: '2026-02-24T11:34:34.971Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-24T11:34:58.142Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-24T11:45:23.052Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-24T11:45:24.926Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/logout',
+  level: 'info',
+  timestamp: '2026-02-24T11:45:59.344Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-24T11:46:09.406Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-24T11:46:25.949Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'error',
+  timestamp: '2026-02-24T11:46:25.949Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-24T11:48:01.242Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'error',
+  timestamp: '2026-02-24T11:48:01.242Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/login',
+  level: 'info',
+  timestamp: '2026-02-24T11:48:07.387Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/login',
+  level: 'info',
+  timestamp: '2026-02-24T11:48:09.886Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-24T11:48:24.471Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-24T11:56:36.999Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/login',
+  level: 'info',
+  timestamp: '2026-02-24T11:57:11.166Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/login',
+  level: 'info',
+  timestamp: '2026-02-24T11:57:14.980Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-24T11:58:10.089Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-24T12:16:01.009Z'
+}
+{
+  message: 'Username already registered.',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'warn',
+  timestamp: '2026-02-24T12:16:01.011Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-24T12:16:26.609Z'
+}
+{
+  message: 'Email already registered.',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'warn',
+  timestamp: '2026-02-24T12:16:26.610Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-24T12:16:37.154Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/login',
+  level: 'info',
+  timestamp: '2026-02-24T12:16:47.783Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/logOUT',
+  level: 'info',
+  timestamp: '2026-02-24T12:22:01.074Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-24T12:27:08.637Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-24T12:27:42.077Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-24T12:32:20.440Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/login',
+  level: 'info',
+  timestamp: '2026-02-24T12:35:26.315Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/login',
+  level: 'info',
+  timestamp: '2026-02-24T12:35:34.202Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-24T12:40:10.170Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-24T12:40:30.576Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-25T07:51:19.137Z'
+}
+{
+  message: 'Server error',
+  error: "Cannot destructure property 'name' of 'req.body' as it is undefined.",
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'error',
+  timestamp: '2026-02-25T07:51:19.140Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-25T07:52:08.227Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-25T07:52:58.933Z'
+}
+{
+  message: 'Server error',
+  error: "Cannot destructure property 'name' of 'req.body' as it is undefined.",
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'error',
+  timestamp: '2026-02-25T07:52:58.936Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-25T07:53:16.258Z'
+}
+{
+  message: 'Server error',
+  error: 'Assignment to constant variable.',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'error',
+  timestamp: '2026-02-25T07:53:16.259Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-25T07:53:26.502Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-25T07:54:06.113Z'
+}
+{
+  message: 'Server error',
+  error: 'Assignment to constant variable.',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'error',
+  timestamp: '2026-02-25T07:54:06.117Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-25T07:55:56.687Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-25T08:16:35.796Z'
+}
+{
+  message: 'Server error',
+  error: "Cannot destructure property 'name' of 'req.body' as it is undefined.",
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'error',
+  timestamp: '2026-02-25T08:16:35.799Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-25T08:17:55.375Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/login',
+  level: 'info',
+  timestamp: '2026-02-25T08:21:14.858Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-25T08:28:41.091Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-25T08:28:52.578Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-25T08:30:46.157Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'error',
+  timestamp: '2026-02-25T08:30:46.158Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/',
+  level: 'info',
+  timestamp: '2026-02-25T08:40:18.973Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-25T08:44:07.403Z'
+}
+{
+  message: 'Server error',
+  error: "Cannot destructure property 'name' of 'req.body' as it is undefined.",
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'error',
+  timestamp: '2026-02-25T08:44:07.404Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-25T08:51:59.952Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-25T08:52:04.882Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-25T08:52:20.297Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-25T08:52:27.439Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-25T08:53:00.080Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-25T09:42:46.986Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-25T09:42:48.953Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-25T09:43:09.586Z'
+}
+{
+  message: 'Server error',
+  error: "Cannot destructure property 'name' of 'req.body' as it is undefined.",
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'error',
+  timestamp: '2026-02-25T09:43:09.587Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-25T09:44:07.654Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-25T09:52:45.904Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-25T09:55:20.513Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-25T09:55:48.668Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-25T10:00:58.919Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-25T10:01:16.290Z'
+}
+{
+  message: 'Email already registered.',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'warn',
+  timestamp: '2026-02-25T10:01:16.292Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-25T10:01:40.282Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-25T10:01:54.638Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-25T10:02:12.521Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-25T10:02:53.613Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-25T10:04:27.607Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-25T10:05:01.597Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-25T10:05:19.713Z'
+}
+{
+  message: 'Email already registered.',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'warn',
+  timestamp: '2026-02-25T10:05:19.715Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-25T10:05:45.925Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-25T10:05:57.872Z'
+}
+{
+  message: 'Email already registered.',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'warn',
+  timestamp: '2026-02-25T10:05:57.887Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-25T10:06:19.794Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-25T10:40:33.401Z'
+}
+{
+  message: 'Email already registered.',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'warn',
+  timestamp: '2026-02-25T10:40:33.407Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-25T10:40:45.782Z'
+}
+{
+  message: 'Username already registered.',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'warn',
+  timestamp: '2026-02-25T10:40:45.784Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-25T10:40:55.637Z'
+}
+{
+  message: 'Email already registered.',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'warn',
+  timestamp: '2026-02-25T10:40:55.638Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-02-25T11:13:28.886Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000//register',
+  level: 'info',
+  timestamp: '2026-02-25T11:13:45.201Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000//register',
+  level: 'info',
+  timestamp: '2026-02-25T11:13:55.567Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/',
+  level: 'info',
+  timestamp: '2026-02-25T11:14:01.324Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/favicon.ico',
+  level: 'info',
+  timestamp: '2026-02-25T11:14:01.407Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/register',
+  level: 'info',
+  timestamp: '2026-02-25T11:14:12.436Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/favicon.ico',
+  level: 'info',
+  timestamp: '2026-02-25T11:14:12.487Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000//register',
+  level: 'info',
+  timestamp: '2026-02-25T11:14:52.134Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/register',
+  level: 'info',
+  timestamp: '2026-02-25T11:15:04.086Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/',
+  level: 'info',
+  timestamp: '2026-02-25T11:20:38.238Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-25T11:21:15.046Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-25T11:24:39.703Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/register',
+  level: 'info',
+  timestamp: '2026-02-25T11:24:46.125Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/favicon.ico',
+  level: 'info',
+  timestamp: '2026-02-25T11:24:46.167Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-25T11:24:57.859Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/favicon.ico',
+  level: 'info',
+  timestamp: '2026-02-25T11:24:57.903Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-25T11:26:50.046Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'error',
+  timestamp: '2026-02-25T11:26:50.049Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/favicon.ico',
+  level: 'info',
+  timestamp: '2026-02-25T11:26:50.073Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/favicon.ico',
+  level: 'error',
+  timestamp: '2026-02-25T11:26:50.074Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/login',
+  level: 'info',
+  timestamp: '2026-02-25T11:28:22.988Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'POST',
+  url: 'http://localhost:3000/login',
+  level: 'error',
+  timestamp: '2026-02-25T11:28:22.990Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/login',
+  level: 'info',
+  timestamp: '2026-02-25T11:28:34.145Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'POST',
+  url: 'http://localhost:3000/login',
+  level: 'error',
+  timestamp: '2026-02-25T11:28:34.146Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-25T11:30:02.075Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'error',
+  timestamp: '2026-02-25T11:30:02.077Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/favicon.ico',
+  level: 'info',
+  timestamp: '2026-02-25T11:30:02.100Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/favicon.ico',
+  level: 'error',
+  timestamp: '2026-02-25T11:30:02.101Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-25T11:30:05.871Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'error',
+  timestamp: '2026-02-25T11:30:05.872Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/favicon.ico',
+  level: 'info',
+  timestamp: '2026-02-25T11:30:05.895Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/favicon.ico',
+  level: 'error',
+  timestamp: '2026-02-25T11:30:05.895Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-25T11:30:06.026Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'error',
+  timestamp: '2026-02-25T11:30:06.026Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/favicon.ico',
+  level: 'info',
+  timestamp: '2026-02-25T11:30:06.049Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/favicon.ico',
+  level: 'error',
+  timestamp: '2026-02-25T11:30:06.049Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-25T11:30:06.240Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'error',
+  timestamp: '2026-02-25T11:30:06.241Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/favicon.ico',
+  level: 'info',
+  timestamp: '2026-02-25T11:30:06.262Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/favicon.ico',
+  level: 'error',
+  timestamp: '2026-02-25T11:30:06.262Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/login',
+  level: 'info',
+  timestamp: '2026-02-25T11:30:11.593Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'POST',
+  url: 'http://localhost:3000/login',
+  level: 'error',
+  timestamp: '2026-02-25T11:30:11.594Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/login',
+  level: 'info',
+  timestamp: '2026-02-25T11:35:15.770Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/login',
+  level: 'info',
+  timestamp: '2026-02-25T11:35:18.083Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-25T11:35:37.148Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'error',
+  timestamp: '2026-02-25T11:35:37.150Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/favicon.ico',
+  level: 'info',
+  timestamp: '2026-02-25T11:35:37.177Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-25T11:35:39.470Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'error',
+  timestamp: '2026-02-25T11:35:39.470Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/favicon.ico',
+  level: 'info',
+  timestamp: '2026-02-25T11:35:39.493Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/login',
+  level: 'info',
+  timestamp: '2026-02-25T11:35:43.585Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/login',
+  level: 'info',
+  timestamp: '2026-02-25T11:36:59.043Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/login',
+  level: 'info',
+  timestamp: '2026-02-25T11:37:05.643Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-25T11:38:10.630Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/login',
+  level: 'info',
+  timestamp: '2026-02-25T11:43:44.839Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/login',
+  level: 'info',
+  timestamp: '2026-02-25T11:43:47.806Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/login',
+  level: 'info',
+  timestamp: '2026-02-25T11:43:50.577Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-25T11:44:28.469Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/register',
+  level: 'info',
+  timestamp: '2026-02-25T11:47:21.548Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/login',
+  level: 'info',
+  timestamp: '2026-02-25T11:48:42.196Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/login',
+  level: 'info',
+  timestamp: '2026-02-25T11:48:53.772Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/login',
+  level: 'info',
+  timestamp: '2026-02-25T11:49:25.234Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/register',
+  level: 'info',
+  timestamp: '2026-02-25T11:49:47.344Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/login',
+  level: 'info',
+  timestamp: '2026-02-25T11:49:53.538Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-25T11:50:40.198Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-25T12:05:30.868Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-25T12:06:00.488Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-25T12:06:02.923Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-25T12:06:34.035Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-25T12:06:44.089Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'error',
+  timestamp: '2026-02-25T12:06:44.090Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-25T12:16:03.180Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-02-25T12:17:06.929Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'error',
+  timestamp: '2026-02-25T12:17:06.932Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-03-02T05:27:40.685Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'error',
+  timestamp: '2026-03-02T05:27:40.692Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/register',
+  level: 'info',
+  timestamp: '2026-03-02T05:42:07.080Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'POST',
+  url: 'http://localhost:3000/register',
+  level: 'error',
+  timestamp: '2026-03-02T05:42:07.091Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/register',
+  level: 'info',
+  timestamp: '2026-03-02T05:42:20.524Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'POST',
+  url: 'http://localhost:3000/register',
+  level: 'error',
+  timestamp: '2026-03-02T05:42:20.525Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/register',
+  level: 'info',
+  timestamp: '2026-03-02T05:48:22.797Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-03-02T05:48:53.038Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/login',
+  level: 'info',
+  timestamp: '2026-03-02T05:49:13.530Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-03-02T05:50:09.492Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-03-02T05:50:27.645Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-03-02T05:51:04.844Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'error',
+  timestamp: '2026-03-02T05:51:04.844Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/logout',
+  level: 'info',
+  timestamp: '2026-03-02T05:51:48.023Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/login',
+  level: 'info',
+  timestamp: '2026-03-02T05:53:49.014Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-03-02T05:55:01.841Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/login',
+  level: 'info',
+  timestamp: '2026-03-02T05:55:39.699Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-03-02T05:55:48.062Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'info',
+  timestamp: '2026-03-02T05:56:11.825Z'
+}
+{
+  message: 'Email already registered.',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'warn',
+  timestamp: '2026-03-02T05:56:11.830Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/login',
+  level: 'info',
+  timestamp: '2026-03-02T05:56:20.222Z'
+}
+{
+  message: 'Incomming request',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/logout',
+  level: 'info',
+  timestamp: '2026-03-02T05:56:28.026Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-03-02T05:56:34.760Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'error',
+  timestamp: '2026-03-02T05:56:34.761Z'
+}
+{
+  message: 'Incomming request',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'info',
+  timestamp: '2026-03-02T05:57:35.640Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'error',
+  timestamp: '2026-03-02T05:57:35.647Z'
+}

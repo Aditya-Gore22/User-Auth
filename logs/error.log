@@ -25,3 +25,241 @@
   level: 'error',
   timestamp: '2026-02-24T10:20:42.936Z'
 }
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'error',
+  timestamp: '2026-02-24T11:46:25.949Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'error',
+  timestamp: '2026-02-24T11:48:01.242Z'
+}
+{
+  message: 'Server error',
+  error: "Cannot destructure property 'name' of 'req.body' as it is undefined.",
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'error',
+  timestamp: '2026-02-25T07:51:19.140Z'
+}
+{
+  message: 'Server error',
+  error: "Cannot destructure property 'name' of 'req.body' as it is undefined.",
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'error',
+  timestamp: '2026-02-25T07:52:58.936Z'
+}
+{
+  message: 'Server error',
+  error: 'Assignment to constant variable.',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'error',
+  timestamp: '2026-02-25T07:53:16.259Z'
+}
+{
+  message: 'Server error',
+  error: 'Assignment to constant variable.',
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'error',
+  timestamp: '2026-02-25T07:54:06.117Z'
+}
+{
+  message: 'Server error',
+  error: "Cannot destructure property 'name' of 'req.body' as it is undefined.",
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'error',
+  timestamp: '2026-02-25T08:16:35.799Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'error',
+  timestamp: '2026-02-25T08:30:46.158Z'
+}
+{
+  message: 'Server error',
+  error: "Cannot destructure property 'name' of 'req.body' as it is undefined.",
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'error',
+  timestamp: '2026-02-25T08:44:07.404Z'
+}
+{
+  message: 'Server error',
+  error: "Cannot destructure property 'name' of 'req.body' as it is undefined.",
+  method: 'POST',
+  url: 'http://localhost:3000/auth/register',
+  level: 'error',
+  timestamp: '2026-02-25T09:43:09.587Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'error',
+  timestamp: '2026-02-25T11:26:50.049Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/favicon.ico',
+  level: 'error',
+  timestamp: '2026-02-25T11:26:50.074Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'POST',
+  url: 'http://localhost:3000/login',
+  level: 'error',
+  timestamp: '2026-02-25T11:28:22.990Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'POST',
+  url: 'http://localhost:3000/login',
+  level: 'error',
+  timestamp: '2026-02-25T11:28:34.146Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'error',
+  timestamp: '2026-02-25T11:30:02.077Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/favicon.ico',
+  level: 'error',
+  timestamp: '2026-02-25T11:30:02.101Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'error',
+  timestamp: '2026-02-25T11:30:05.872Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/favicon.ico',
+  level: 'error',
+  timestamp: '2026-02-25T11:30:05.895Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'error',
+  timestamp: '2026-02-25T11:30:06.026Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/favicon.ico',
+  level: 'error',
+  timestamp: '2026-02-25T11:30:06.049Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'error',
+  timestamp: '2026-02-25T11:30:06.241Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/favicon.ico',
+  level: 'error',
+  timestamp: '2026-02-25T11:30:06.262Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'POST',
+  url: 'http://localhost:3000/login',
+  level: 'error',
+  timestamp: '2026-02-25T11:30:11.594Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'error',
+  timestamp: '2026-02-25T11:35:37.150Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'error',
+  timestamp: '2026-02-25T11:35:39.470Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'error',
+  timestamp: '2026-02-25T12:06:44.090Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'error',
+  timestamp: '2026-02-25T12:17:06.932Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'error',
+  timestamp: '2026-03-02T05:27:40.692Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'POST',
+  url: 'http://localhost:3000/register',
+  level: 'error',
+  timestamp: '2026-03-02T05:42:07.091Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'POST',
+  url: 'http://localhost:3000/register',
+  level: 'error',
+  timestamp: '2026-03-02T05:42:20.525Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'error',
+  timestamp: '2026-03-02T05:51:04.844Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'error',
+  timestamp: '2026-03-02T05:56:34.761Z'
+}
+{
+  message: 'Access denied. No token provided.',
+  method: 'GET',
+  url: 'http://localhost:3000/dashboard',
+  level: 'error',
+  timestamp: '2026-03-02T05:57:35.647Z'
+}

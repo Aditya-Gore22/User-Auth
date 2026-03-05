@@ -1,7 +1,8 @@
-const express=require('express')
-const app=express();
+const express = require('express');
+const app = express();
+
 app.use(express.json());
-app.use(express.urlencoded({extended:true}))
+app.use(express.urlencoded({ extended: true }));
 
 const cookieParser = require("cookie-parser");
 app.use(cookieParser());
@@ -9,20 +10,22 @@ app.use(cookieParser());
 const logMiddleware = require('./middlewares/logMiddleware');
 app.use(logMiddleware);
 
+// Public routes
+const auth = require('./routes/authRoute');
+app.use('/auth', auth);
 
-//Routes
-const auth=require('./routes/authRoute')
-app.use('/auth',auth)
+app.get('/', (req, res) => {
+    res.send('hello');
+});
 
+// Protected routes
+const authMiddleware = require('./middlewares/authMiddleware');
+const router = express.Router();
 
-const authMiddleware=require('./middlewares/authMiddleware')
-app.get('/dashboard',authMiddleware.protectedRoute,(req,res)=>{
-    res.send(`hello ${req.user.email}`)
-})
+router.get('/dashboard', authMiddleware.protectedRoute, (req, res) => {
+    res.send(`hello ${req.user.email}`);
+});
 
-app.get('/',(req,res)=>{
-    res.send('hello')
-})
+app.use(router);
 
-
-module.exports=app;
+module.exports = app;
